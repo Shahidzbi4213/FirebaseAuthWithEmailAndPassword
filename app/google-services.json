@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "956572578504",
+    "project_id": "security-work-79ea7",
+    "storage_bucket": "security-work-79ea7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956572578504:android:7e0f9c28898300a5322bfd",
+        "android_client_info": {
+          "package_name": "com.gulehri.edu.pk.securitywork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956572578504-s16pmtg4mpn475as9ui7ctsdf8fmlppc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7Up-NHu7r_j6ZASzFvAA2vu5Fxj95HTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956572578504-s16pmtg4mpn475as9ui7ctsdf8fmlppc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

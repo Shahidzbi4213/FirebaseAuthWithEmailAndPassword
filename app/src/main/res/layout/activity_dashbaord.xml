@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Dashbaord">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Main Menu"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/emailAdress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="354dp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#120000"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/userID"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#120000"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailAdress" />
+
+    <Button
+        android:id="@+id/signOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="110dp"
+        android:backgroundTint="#FD3F3F"
+        android:elevation="@dimen/_10sdp"
+        android:paddingStart="@dimen/_10sdp"
+        android:text="Sign Out"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#EC4B18"
+        android:elevation="@dimen/_10sdp"
+        android:text="Delete Account"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signOut" />
+</androidx.constraintlayout.widget.ConstraintLayout>
